@@ -1,0 +1,18 @@
+// Navigation Styles here
+//Nav container with use of mixin for flex properties
+nav {
+    .flex(space-between, center);
+    width: 50%;
+    @media @mobile {
+        width:100%;
+        padding-top: 10px;
+    }
+    //Nav link styling
+    a{
+        text-decoration: none;
+        color: black;
+        width:20%;
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+}
